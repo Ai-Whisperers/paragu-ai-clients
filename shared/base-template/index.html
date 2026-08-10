@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{CLIENT_NAME}}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">{{CLIENT_NAME}}</div>
+        <nav>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>{{TAGLINE_ES}}</h1>
+            <p class="subtitle">{{INTRO_ES}}</p>
+            <a href="https://wa.me/{{WHATSAPP}}?text=Hola%2C%20me%20interesa" class="cta">
+                Escribinos por WhatsApp
+            </a>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <!-- Add services here -->
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>WhatsApp: <a href="https://wa.me/{{WHATSAPP}}">+{{WHATSAPP}}</a></p>
+            <p>Dirección: {{ADDRESS}}</p>
+            <p>Email: {{EMAIL}}</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 {{CLIENT_NAME}}. Hecho con ParaguAI.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "{{CLIENT_NAME}}",
+  "slug": "{{CLIENT_SLUG}}",
+  "category": "service|product|restaurant|gym|salon|clinic|other",
+  "country": "PY",
+  "city": "Asunción",
+  "whatsapp": "{{WHATSAPP}}",
+  "email": "{{EMAIL}}",
+  "address": "{{ADDRESS}}",
+  "hours": "lun-vie 09:00-18:00",
+  "languages": ["es", "en"],
+  "primary_color": "#C4956A",
+  "deploy_target": "cloudflare-pages",
+  "cf_project_name": "{{CLIENT_SLUG}}",
+  "domain": "{{CLIENT_SLUG}}.com.py",
+  "created": "2026-08-10"
+}
